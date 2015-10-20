@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+	id="ws.its.cms" version="1.0.0">
+	<name>CMS</name>
+
+	<description>
+		A sample Apache Cordova application that responds to the deviceready
+		event.
+	</description>
+
+	<author href="http://www.eclipse.org/thym" email="thym-dev@eclipse.org">
+		Eclipse.org - Thym
+	</author>
+
+	<content src="index.html" />
+
+	
+	<access origin="http://172.16.114.12:8000/P2B_CMS" subdomains="true"/>
+	
+	<preference name="fullscreen" value="true" />
+	<preference name="webviewbounce" value="true" />
+
+	<feature name="App">
+		<param name="android-package" value="org.apache.cordova.App" />
+	</feature>
+
+</widget>
